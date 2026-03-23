@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+
+
+p {
+color: white;
+background-color: pink;
+
+}
+ 
+.tiktok {
+    font-family: sans-srif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #000;
+    color: #eee;
+    font-size: 90px;
+    text-shadow: 2px 2px #ec1d5b, -2px -2px #23b2c0;
+}
+
+.name{
+    text-align: center;
+}
+.palette{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.luv {
+    font-family: Knewave;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: pink;
+    border: 1px #f1b3cd;
+    background-color: #fdf4f3;
+}
+.luv2 {
+    font-family: Knewave;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: pink;
+    border: 1px #f1b3cd;
+    background-color: #f8d6dd;
+}
+.luv3 {
+    font-family: Knewave;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: pink;
+    border: 1px #f1b3cd;
+    background-color: #f7d3e4;
+}
+.luv4 {
+    font-family: Knewave;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: pink;
+    border: 1px #f1b3cd;
+    background-color: #f1b3cd;
+}
+.luv5 {
+    font-family: Knewave;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    color: wheat;
+    border: 1px #f1b3cd;
+    background-color: #f0c2a8;
+}
