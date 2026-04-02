@@ -7,37 +7,158 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="w-full">
+    <!--nav bar-->
     <header>
       <div
         class="flex h-20 justify-between items-center border-spacing-1 border-b border-gray-300"
       >
-        <div class="flex gap-2 mx-6 my-6">
+        <div class="flex mx-6 my-6">
           <img src="./img/logo god.png" alt="logo god" />
-          <h1 class="text-4xl">Pet<span class="text-[#F0C2A8]">Hup</span></h1>
+          <h1 class="text-4xl font-bold">
+            Pet<span class="text-[#FCB1CE]">Hup</span>
+          </h1>
         </div>
-        <div class="flex gap-9 mx-6 my-6">
-          <img
-            src="/Week_04/personal_e-commerce_project/img/Dog House.png"
-            alt="Dog House"
-          />
-          <img
-            src="/Week_04/personal_e-commerce_project/img/dog shower.png"
-            alt="dog shower"
-          />
-          <img
-            src="/Week_04/personal_e-commerce_project/img/Small Business.png"
-            alt="Small Business"
-          />
-          <img
-            src="/Week_04/personal_e-commerce_project/img/Shopping Cart.png"
-            alt="Shopping Cart"
-          />
-          <img
-            src="/Week_04/personal_e-commerce_project/img/Customer.png"
-            alt="Customer"
-          />
-        </div>
+        <nav>
+          <div class="flex gap-6 mx-6 my-6">
+            <a href=""><img src="./img/Dog House.png" alt="Dog House" /></a>
+            <a href=""></a><img src="./img/dog shower.png" alt="dog shower" /></a>
+            <a href=""></a><img src="./img/Small Business.png" alt="Small Business" /></a>
+            <a href=""></a><img src="./img/Shopping Cart.png" alt="Shopping Cart" /></a>
+            <a href=""></a><img src="./img/Customer.png" alt="Customer" /></a>
+          </div>
+        </nav>
       </div>
     </header>
+    <!--Introduce-->
+    <hero>
+      <div class="flex my-6 mx-6">
+        <img
+          src="./img/โกลเด้นอาบน้ำ.jpg"
+          alt="โกลเด้นอาบน้ำ"
+          class="w-2/4 rounded-4xl mr-8"
+        />
+        <div class="flex flex-col justify-center">
+          <h1 class="text-5xl font-bold mb-5">
+            welcome to Pet<span class="text-[#FCB1CE]">Hup</span>
+          </h1>
+          <p class="text-2xl w-11/12">
+            We provide dog grooming services (bathing and trimming) and sell
+            high-quality dog food.
+          </p>
+        </div>
+      </div>
+    </hero>
+    <!--Booking-->
+    <section>
+      <div class="flex py-9 px-16 bg-[#FFF5F3]">
+        <div class="flex flex-col justify-center">
+          <h1 class="text-5xl font-bold mb-6">Booking grooming</h1>
+          <p class="text-2xl w-11/13 mb-11">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam quae
+            corporis recusandae? At, quod incidunt.
+          </p>
+          <a
+            class="bg-[#CCC5C5] text-4xl font-bold py-3 px-10 w-75 rounded-4xl hover:bg-[#FCB1CE] hover:text-neutral-50"
+            href=""
+            >Booking here
+          </a>
+        </div>
+        <img
+          src="./img/ชิวาวาเป่าผม.jpg"
+          class="w-6/13 rounded-full"
+          alt="ชิวาวาเป่าผม"
+        />
+      </div>
+    </section>
+    <!--Produch-->
+    <section>
+      <div class="flex pt-8 pb-20 mx-5 ">
+        <img 
+        class=" w-2/4 rounded-4xl aspect-square object-cover mr-8"
+        src="./img/dotcart.jpg" alt="dotcart" />
+        <div class="flex grid grid-cols-3 grid-rows-2 gap-3 w-2/4 ">
+          <div class="flex flex-col px5 rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400">
+            <img 
+            class="w-2/3 ml-5 mb-5"
+            src="./img/อาหารสุนัข 2.webp" alt="อาหารสุนัข 1" /> 
+  
+             <p class="text-sm mb-5 px-5">Royal Canin โรยัล คานิน อาหารเม็ด สำหรับสุนัขสูงวัย สายพันธุ์เล็ก <br>อายุ 8 ปีขึ้นไป 3 kg</p> 
+              <div class="flex px-5">
+                <h1 class="mr-4">฿1,029.00</h1>
+                <a href=""><img src="./img/Add Shopping Cart.png" alt="Add Shopping Cart"></a>
+              </div>
+          </div>
+          <div class="flex flex-col px5 rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400">
+            <img 
+            class="w-2/3 ml-5 mb-5"
+            src="./img/อาหารสุนัข 1.webp" alt="อาหารสุนัข 2" /> 
+             <p class="w-auto mb-6 px-5">Hill's ฮิลส์ อาหารเม็ด สำหรับสุนัขสูงอายุ 7 ขึ้นไป 5.67 kg</p> 
+              <div class="flex px-5">
+                <h1 class="mr-4">฿2,400.00</h1>
+                <a href=""><img src="./img/Add Shopping Cart.png" alt="Add Shopping Cart"></a>
+              </div>
+          </div>
+          <div class="flex flex-col px5 rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400">
+            <img 
+            class="w-2/3 ml-5 mb-5"
+            src="./img/อาหารสุนัข 3.webp" alt="อาหารสุนัข 3" /> 
+             <p class="w-auto mb-6 px-4">Pluto พลูโต อาหารเม็ด สำหรับสุนัขโตสายพันธุ์ใหญ่ รสเนื้อบาร์บีคิว 1.5 kg</p> 
+              <div class="flex  px-5">
+                <h1 class="mr-4">฿2,390.00</h1>
+                <a href=""><img src="./img/Add Shopping Cart.png" alt="Add Shopping Cart"></a>
+              </div>
+          </div>
+          <div class="flex flex-col px5 rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400">
+            <img 
+            class="w-2/3 ml-8 mb-5"
+            src="./img/อาหารสุนัข 5.webp" alt="อาหารสุนัข 5" /> 
+             <p class="w-auto mb-12 px-5">Jerhigh เจอร์ไฮ ฮอทดอกบาร์ สำหรับสุนัข รสไก่ <br>150 g</p> 
+              <div class="flex px-5">
+                <h1 class="mr-4">฿45.00</h1>
+                <a href=""><img src="./img/Add Shopping Cart.png" alt="Add Shopping Cart"></a>
+              </div>
+          </div>
+          <div class="flex flex-col px5 rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400">
+            <img 
+            class="w-2/3 ml-5 mb-5"
+            src="./img/อาหารสุนัข 4.webp" alt="อาหารสุนัข 5" /> 
+             <p class="w-auto mb-6 px-5">Royal Canin โรยัล คานิน อาหารเม็ด สำหรับสุนัขโต สายพันธุ์จิ๋ว อายุ 10 เดือน ถึง 8 ปี 1.5 kg</p> 
+              <div class="flex px-5">
+                <h1 class="mr-4">฿579.00</h1>
+                <a href=""><img src="./img/Add Shopping Cart.png" alt="Add Shopping Cart"></a>
+              </div>
+          </div>
+          <div class="flex justify-center items-center rounded-4xl hover:shadow-[3px_3px_0px_0px] hover:shadow-gray-400"">
+                <a href="">See more</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--footer-->
+    <footer>
+      <div class="flex flex-col w-auto h-28 bg-[#FFF5F3] justify-center pl-6">    
+          <h1 class="mb-4 text-xl font-bold text-gray-500">contact</h1>  
+        <div class="flex gap-4">
+          <div class="flex">
+            <img 
+            class="h-6 w-6 mr-1"
+            src="./img/Facebook.png" alt="Facebook">
+            <p class="font-bold">PetHup</p>
+          </div>
+          <div class="flex">
+            <img 
+            class="h-6 w-6 mr-1"
+            src="./img/ig.png" alt="ig">
+            <p class="font-bold">PetHup</p>
+          </div>
+          <div class="flex">
+            <img
+            class="h-6 w-6 mr-1" 
+            src="./img/line.png" alt="line">
+            <p class="font-bold">@PetHup</p>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
